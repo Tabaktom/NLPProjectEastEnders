@@ -1,0 +1,31 @@
+This program was developed using python 3.7 and utilizes inbuilt functions that are not available on previous versions.
+It is advisable to ensure that this program is ran using this version of python.
+
+Dependencies and versions required to run this program:
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.8
+joblib==0.14.0
+nltk==3.4.5
+numpy==1.17.4
+pandas==0.25.3
+pycorenlp==0.3.0
+python-dateutil==2.8.1
+pytz==2019.3
+requests==2.22.0
+scikit-learn==0.21.3
+scipy==1.3.3
+six==1.13.0
+sklearn==0.0
+urllib3==1.25.7
+
+It is advisable that the csv files (training.csv and test.csv) are in the same directory as the python files,
+otherwise a slight modification to the code will be required.
+
+
+Finally, to run this program, please run the Main.py file.
+When the program is run, the user will be prompted to take action and input the classification type they would like to perform.
+Either 'gender' or 'character' must be typed in and returned to the program.
+
+To run the non optimal model using the individual unigram and bigram tokens as features represented in many hot arrays, please run the Old_main.py file:
+- However, be advised that running this file may take a considerably longer time (in comparison to Main.py)
