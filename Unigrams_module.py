@@ -91,7 +91,7 @@ class ent_perp_frame():
     def test(corpus, label, uni, target, type):
         total = sum(uni.values())
         if type == 'gender' or type == 'character':
-            uni, total = unigram(corpus, label, target)
+            #uni, total = unigram(corpus, label, target)
             s = 0
             N = 0
             ent = []
